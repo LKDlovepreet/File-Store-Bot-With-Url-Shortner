@@ -4,7 +4,7 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "28923075"))
   API_HASH = os.environ.get("API_HASH", "77671b1fa735ceeeb4952da500db9124")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "@videosstoragebot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002429236577"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "mdiskshortner.link")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "ead08e1329dbc1f5a2bd4dfe9e7c6e09b2c763bc")
